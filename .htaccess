@@ -1,0 +1,39 @@
+Options +FollowSymLinks
+RewriteEngine On
+ 
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+#RewriteRule ^.*$ ./index.php?redirect=on&parameters=0 
+RewriteRule ^(.*)$ ./index.php?redirect=on&parameters=$1 [L]
+
+## Catching Functinos--------------------------
+
+
+# 480 weeks
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|ttf|eot|woff|otf)$">
+Header set Cache-Control "max-age=290304000, public"
+</FilesMatch>
+
+# 2 DAYS
+<FilesMatch "\.(xml|txt)$">
+Header set Cache-Control "max-age=172800, public, must-revalidate"
+</FilesMatch>
+
+# 2 HOURS
+<FilesMatch "\.(html|htm|php)$">
+Header set Cache-Control "max-age=7200, must-revalidate"
+</FilesMatch>
+
+## Deflect to do gzip.
+
+<filesmatch "\.(js|css|html|jpg|png|php)$">
+SetOutputFilter DEFLATE
+</filesmatch>
+
+#---------------------------------Error File Name-----------------------------------#
+
+ErrorDocument 401 /application/errors/401.php
+ErrorDocument 404 /application/errors/404.php
+ErrorDocument 403 /application/errors/403.php
+ErrorDocument 500 /application/errors/500.php
