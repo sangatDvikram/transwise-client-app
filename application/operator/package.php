@@ -17,7 +17,7 @@ $Operator = new Operator ();
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-<link rel="shortcut icon" href="/favicon.ico">
+<link rel="shortcut icon" href="./favicon.ico">
 
 <title>Manage Package - Operator panel</title>
 
@@ -133,7 +133,7 @@ $Operator = new Operator ();
 								<?php echo "value=$data[package_id]";?>>
 							<button type='submit' class='btn btn-danger yes' name="delete"
 								id="<?php echo "$data[package_id]";?>">Yes</button>
-							<a class="btn btn-default" href="/operator/groups" role="button"><span
+							<a class="btn btn-default" href="./operator/groups" role="button"><span
 								class="glyphicon glyphicon-remove"></span> No</a>
 						</form>
 					</div>
@@ -572,7 +572,7 @@ if (isset ( $_request ['all'] ) || isset ( $_request ['delete'] )) {
    </tbody>
 					</table>
 					<a type="button" class="btn btn-success btn-lg"
-						href="/operator/package?add"> <span
+						href="./operator/package?add"> <span
 						class="glyphicon glyphicon-plus"></span> Add New Pacakge
 					</a>
 				</div>
@@ -598,9 +598,9 @@ if (isset ( $_request ['all'] ) || isset ( $_request ['delete'] )) {
 	<!-- Bootstrap core JavaScript
     ================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="/assets/js/jquery.js"></script>
-	<script src="/assets/js/bootstrap.min.js"></script>
-	<script src="//tinymce.cachefly.net/4.0/tinymce.min.js"></script>
+	<script src="./assets/js/jquery.js"></script>
+	<script src="./assets/js/bootstrap.min.js"></script>
+	<script src=".//tinymce.cachefly.net/4.0/tinymce.min.js"></script>
 	<script>
           tinymce.init({
               selector: "textarea",

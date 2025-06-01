@@ -3,7 +3,7 @@
     <div class="panel panel-default">
         <div class="panel-heading">
             <h4 class="panel-title">
-                <a href="/"><span class="glyphicon glyphicon-th">
+                <a href="./"><span class="glyphicon glyphicon-th">
                     </span>Home</a>
             </h4>
         </div>
@@ -19,13 +19,13 @@
         <div class="panel-collapse  ">
             <ul class="list-group">
                 <li class="list-group-item"><span class="glyphicon glyphicon-tag text-info"></span><a
-                        href="/admin/newuser?new">Add User</a></li>
+                        href="./admin/newuser?new">Add User</a></li>
                 <li class="list-group-item"><span class="glyphicon glyphicon-tag text-info"></span><a
-                        href="/admin/manageUser?all">Manage User</a></li>
+                        href="./admin/manageUser?all">Manage User</a></li>
                 <li class="list-group-item"><span class="glyphicon glyphicon-tag text-info"></span><a
-                        href="/admin/NewCompany?new">Add Company</a></li>
+                        href="./admin/NewCompany?new">Add Company</a></li>
                 <li class="list-group-item"><span class="glyphicon glyphicon-tag text-info"></span><a
-                        href="/admin/NewCompany?all">Manage Company</a></li>
+                        href="./admin/NewCompany?all">Manage Company</a></li>
             </ul>
         </div>
     </div>
@@ -40,9 +40,9 @@
         <div class="panel-collapse ">
             <ul class="list-group">
                 <li class="list-group-item"><span class="glyphicon glyphicon-tag text-info"></span><a
-                        href="/admin/addtaxes">Add Taxes</a></li>
+                        href="./admin/addtaxes">Add Taxes</a></li>
                 <li class="list-group-item"><span class="glyphicon glyphicon-tag text-info"></span><a
-                        href="/admin/taxes?all">Manage Taxes</a></li>
+                        href="./admin/taxes?all">Manage Taxes</a></li>
             </ul>
         </div>
 

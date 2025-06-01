@@ -7,19 +7,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-<link rel="shortcut icon" href="/favicon.ico">
+<link rel="shortcut icon" href="./favicon.ico">
 
 <title>Welcome to <?php echo Company::getdetails('Name');?> - <?php $tag=Company::getdetails('Tagline'); echo ( $tag);?></title>
 
 
 
 <!-- Bootstrap core CSS -->
-<link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-<link href="/assets/css/half-slider.css" rel="stylesheet">
-<link href="/assets/css/datepicker.css" rel="stylesheet">
-<link href="/assets/css/docs.min.css" rel="stylesheet">
+<link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="./assets/css/half-slider.css" rel="stylesheet">
+<link href="./assets/css/datepicker.css" rel="stylesheet">
+<link href="./assets/css/docs.min.css" rel="stylesheet">
 <!-- Just for debugging purposes. Don't actually copy this line! -->
-<!--[if lt IE 9]><script src="/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="./assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
@@ -30,8 +30,8 @@
 
 <!-- Favicons -->
 <link rel="apple-touch-icon-precomposed"
-	href="/assets/ico/apple-touch-icon-precomposed.png">
-<link rel="icon" href="/favicon.ico">
+	href="./assets/ico/apple-touch-icon-precomposed.png">
+<link rel="icon" href="./favicon.ico">
 
 
 
@@ -112,7 +112,7 @@
 					<p>Your Service satisfaction gives Transwise the core happiness of
 						goal’s achievement.</p>
 					<p>
-						<a class="btn btn-default" href="/register" role="button">Sign up
+						<a class="btn btn-default" href="./register" role="button">Sign up
 							today &raquo;</a>
 					</p>
 				</div>
@@ -165,10 +165,10 @@
 		<!-- Bootstrap core JavaScript
     ================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
-        <script src="/assets/js/jquery-1.11.0.js"></script>
-        <script src="/assets/js/bootstrap.min.js"></script>
-		<script src="/assets/js/docs.min.js"></script>
-		<script src="/assets/js/bootstrap-datepicker.js"></script>
+        <script src="./assets/js/jquery-1.11.0.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+		<script src="./assets/js/docs.min.js"></script>
+		<script src="./assets/js/bootstrap-datepicker.js"></script>
 		<script type="text/javascript">
             // When the document is ready
 

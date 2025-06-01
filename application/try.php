@@ -9,7 +9,7 @@ $booking=new Bookings;
     <meta name="viewport" content="width=device-width, initial-scale=1" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;">
     <meta name="description" content="" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;">
     <meta name="author" content="" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;">
-    <link rel="shortcut icon" href="/favicon.ico" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;">
+    <link rel="shortcut icon" href="./favicon.ico" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;">
 
     <title style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;">Bookings details - Operator panel</title>
 

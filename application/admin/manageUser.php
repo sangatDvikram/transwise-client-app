@@ -15,7 +15,7 @@ $message = '';
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="./favicon.ico">
 
     <title> Manage Users - Admin panel</title>
 
@@ -99,7 +99,7 @@ $message = '';
                             <button type='submit' class='btn btn-danger yes' name="delete"
                                     id="<?php echo "$userDelete->user_id"; ?>">Yes
                             </button>
-                            <a class="btn btn-default" href="/admin/manageUser?all" role="button"><span
+                            <a class="btn btn-default" href="./admin/manageUser?all" role="button"><span
                                     class="glyphicon glyphicon-remove"></span> No</a></form>
                     </div>
                 <?php } ?>
@@ -144,7 +144,7 @@ $message = '';
                         ?>
                         </tbody>
                     </table>
-                    <a type="button" class="btn btn-success btn-lg" href="/admin/newuser?new">
+                    <a type="button" class="btn btn-success btn-lg" href="./admin/newuser?new">
                         <span class="glyphicon glyphicon-plus"></span> Add New User
                     </a>
                 </div>
@@ -169,9 +169,9 @@ $message = '';
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="/assets/js/jquery.js"></script>
-<script src="/assets/js/bootstrap.min.js"></script>
-<!--<script src="//tinymce.cachefly.net/4.0/tinymce.min.js"></script>-->
+<script src="./assets/js/jquery.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+<!--<script src=".//tinymce.cachefly.net/4.0/tinymce.min.js"></script>-->
 <script>
 
     $(document).ready(function () {

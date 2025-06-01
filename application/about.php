@@ -9,18 +9,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="./favicon.ico">
 
     <title>About Us</title>
 
     <!-- Bootstrap core CSS -->
-<link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/css/docs.min.css" rel="stylesheet">
+<link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/docs.min.css" rel="stylesheet">
     <style type="text/css"> .bs-docs-header{margin-top: -20px} p{ line-height: 1.5 }</style>
 <!--[if lt IE 9]><script src="../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
-<script src="/assets/js/ie-emulation-modes-warning.js"></script>
+<script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+<script src="./assets/js/ie-emulation-modes-warning.js"></script>
 
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>   
@@ -126,9 +126,9 @@ We focus on every possible aspect of client’s requirements, client’s expecta
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/assets/js/jquery.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
-    <script src="/assets/js/docs.min.js"></script>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/docs.min.js"></script>
 
   </body>
 </html>

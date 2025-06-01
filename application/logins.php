@@ -14,24 +14,24 @@ if (Login::is_logged_in())
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="./favicon.ico">
 
     <title>Sign In</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/css/login.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/login.css" rel="stylesheet">
 
  <!-- Optional Bootstrap Theme -->
-  <link href="data:text/css;charset=utf-8," data-href="/assets/css/bootstrap-theme.min.css" rel="stylesheet" id="bs-theme-stylesheet">
+  <link href="data:text/css;charset=utf-8," data-href="./assets/css/bootstrap-theme.min.css" rel="stylesheet" id="bs-theme-stylesheet">
 
 
 <!-- Documentation extras -->
-<link href="/assets/css/docs.min.css" rel="stylesheet">
+<link href="./assets/css/docs.min.css" rel="stylesheet">
 <!--[if lt IE 9]><script src="../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
-<script src="/assets/js/ie-emulation-modes-warning.js"></script>
+<script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+<script src="./assets/js/ie-emulation-modes-warning.js"></script>
 
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
@@ -77,7 +77,7 @@ if (Login::is_logged_in())
         ?>
          <div class="omb_login">
          
-      <h3 class="omb_authTitle">Login or <a href="/register">Sign up</a></h3>
+      <h3 class="omb_authTitle">Login or <a href="./register">Sign up</a></h3>
     <div class="row omb_row-sm-offset-3 omb_socialButtons">
           <div class="col-xs-4 col-sm-2">
             <a href="#" class="btn btn-lg btn-block omb_btn-facebook">
@@ -155,8 +155,8 @@ if (Login::is_logged_in())
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/assets/js/jquery.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
     <script type="text/javascript">
             // When the document is ready
             $(function () {

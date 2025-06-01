@@ -16,7 +16,7 @@ $booking=new Bookings;
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="./favicon.ico">
 
     <title>DutySlip details - Operator panel</title>
 
@@ -770,10 +770,10 @@ input[type="text"] {
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/assets/js/jquery.js"></script>
-    <script src="/assets//js/bootstrap.min.js"></script>
-   <script src="/assets/js/docs.min.js"></script>
-    <script src="/assets/js/bootstrap-datepicker.js"></script>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets//js/bootstrap.min.js"></script>
+   <script src="./assets/js/docs.min.js"></script>
+    <script src="./assets/js/bootstrap-datepicker.js"></script>
     <script>
           
            $(document).ready(function () {

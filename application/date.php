@@ -4,8 +4,8 @@
         <title>bootstrap datepicker examples</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <!-- Bootstrap CSS and bootstrap datepicker CSS used for styling the demo pages-->
-        <link rel="stylesheet" href="/assets/css/datepicker3.css">
-        <link rel="stylesheet" href="/assets/css/bootstrap.css">
+        <link rel="stylesheet" href="./assets/css/datepicker3.css">
+        <link rel="stylesheet" href="./assets/css/bootstrap.css">
           <script>
       var page = {bootstrap:3};
       function swap_bs(){
@@ -33,8 +33,8 @@
             </div>
         </div>
         <!-- Load jQuery and bootstrap datepicker scripts -->
-        <script src="/assets/js/jquery.js"></script>
-        <script src="/assets/js/bootstrap-datepicker.js"></script>
+        <script src="./assets/js/jquery.js"></script>
+        <script src="./assets/js/bootstrap-datepicker.js"></script>
         <script type="text/javascript">
            
                 $('#example1').datepicker({

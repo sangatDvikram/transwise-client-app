@@ -18,7 +18,7 @@ if (! Login::is_operator() && ! Login::is_admin())
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="./favicon.ico">
 
     <title>Manage Company - Admin panel</title>
 
@@ -197,7 +197,7 @@ if (! Login::is_operator() && ! Login::is_admin())
                                     id="<?php echo "$delCompany->company_id"; ?>">
                                 Yes
                             </button>
-                            <a class="btn btn-default" href="/admin/NewCompany?all" role="button"><span
+                            <a class="btn btn-default" href="./admin/NewCompany?all" role="button"><span
                                     class="glyphicon glyphicon-remove"></span> No</a>
                         </form>
                     </div>
@@ -258,9 +258,9 @@ if (! Login::is_operator() && ! Login::is_admin())
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="/assets/js/jquery.js"></script>
-<script src="/assets/js/bootstrap.min.js"></script>
-<script src="//tinymce.cachefly.net/4.0/tinymce.min.js"></script>
+<script src="./assets/js/jquery.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+<script src=".//tinymce.cachefly.net/4.0/tinymce.min.js"></script>
 <script>
 
     $(document).ready(function () {

@@ -114,15 +114,15 @@ if (isset($_request['new'])) //if we are creating new user
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="./favicon.ico">
 
     <title><?php echo $updateOp === false ? "Add New" : "Update"; ?> User - Admin panel</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/css/docs.min.css" rel="stylesheet">
-    <link href="/assets/css/offcanvas.css" rel="stylesheet">
-    <link href="/assets/css/datepicker.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/docs.min.css" rel="stylesheet">
+    <link href="./assets/css/offcanvas.css" rel="stylesheet">
+    <link href="./assets/css/datepicker.css" rel="stylesheet">
     <style type="text/css">
         body {
             padding-top: 70px;
@@ -375,8 +375,8 @@ if (isset($_request['new'])) //if we are creating new user
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="/assets/js/jquery.js"></script>
-<script src="/assets/js/bootstrap.min.js"></script>
+<script src="./assets/js/jquery.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
 <script> $(document).ready(function () {
         $('[data-toggle=offcanvas]').click(function () {
             $('.row-offcanvas').toggleClass('active')

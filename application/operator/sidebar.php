@@ -3,7 +3,7 @@
     <div class="panel panel-default">
         <div class="panel-heading">
             <h4 class="panel-title">
-                <a href="/operator"><span class="glyphicon glyphicon-th">
+                <a href="./operator"><span class="glyphicon glyphicon-th">
                     </span>Dashboard</a>
             </h4>
         </div>
@@ -22,27 +22,27 @@
                 <li class="list-group-item"><span class="glyphicon glyphicon-tag text-info"></span>Package
                     <ul class="list-group">
                         <li class="list-group-item"><span class="glyphicon glyphicon-th-large text-primary"></span><a
-                                href="/operator/packagegroup<?php echo ($Operator->getpackagegroupcount() == 0) ? "?add" : "?all"; ?>">
+                                href="./operator/packagegroup<?php echo ($Operator->getpackagegroupcount() == 0) ? "?add" : "?all"; ?>">
                                 Package Groups </a></li>
                         <li class="list-group-item"><span class="glyphicon glyphicon-briefcase text-success"></span><a
-                                href="/operator/<?php echo ($Operator->getpackagegroupcount() == 0) ? "packagegroup" : "package"; ?><?php echo ($Operator->getpackagecount() == 0) ? "?add" : "?all"; ?>">
+                                href="./operator/<?php echo ($Operator->getpackagegroupcount() == 0) ? "packagegroup" : "package"; ?><?php echo ($Operator->getpackagecount() == 0) ? "?add" : "?all"; ?>">
                                 Package </a></li>
                         <li class="list-group-item"><span class="glyphicon glyphicon-asterisk text-primary"></span><a
-                                href="/operator/services<?php echo ($Operator->getservicecount() == 0) ? "?add" : "?all"; ?>">
+                                href="./operator/services<?php echo ($Operator->getservicecount() == 0) ? "?add" : "?all"; ?>">
                                 Extra Services </a></li>
                     </ul>
                 </li>
                 <li class="list-group-item"><span class="glyphicon glyphicon-bookmark text-primary"></span>Bookings
                     <ul class="list-group">
                         <li class="list-group-item "><span class="glyphicon glyphicon-list-alt text-primary"></span><a
-                                href="/operator/newbookings">New Bookings <?php $count = Bookings::getPendingCount();
+                                href="./operator/newbookings">New Bookings <?php $count = Bookings::getPendingCount();
                                 echo "<span class='badge pull-right' title='There are $count Pending Bookings'>$count</span>"; ?></a>
                         </li>
 
                         <li class="list-group-item"><span class="glyphicon glyphicon-list text-warning"></span><a
-                                href="/operator/confirm?operation=new">New Company Booking</a></li>
+                                href="./operator/confirm?operation=new">New Company Booking</a></li>
                         <li class="list-group-item"><span class="glyphicon glyphicon-list text-warning"></span><a
-                                href="/operator/bookings">All Bookings </a></li>
+                                href="./operator/bookings">All Bookings </a></li>
 
 
                     </ul>
@@ -50,25 +50,25 @@
                 <li class="list-group-item"><span class="glyphicon glyphicon-send text-success"></span>Duty Slip
                     <ul class="list-group">
                         <li class="list-group-item"><span class="glyphicon glyphicon-plus text-warning"></span><a
-                                href="/operator/slip?new">Pending duty slip</a></li>
+                                href="./operator/slip?new">Pending duty slip</a></li>
                         <li class="list-group-item"><span class="glyphicon glyphicon-list text-warning"></span><a
-                                href="/operator/slip?all">View all duty slip</a></li>
+                                href="./operator/slip?all">View all duty slip</a></li>
                     </ul>
                 </li>
 
                 <li class="list-group-item"><span class="glyphicon glyphicon-send text-success"></span>Cars
                     <ul class="list-group">
                         <li class="list-group-item"><span class="glyphicon glyphicon-plus text-primary"></span><a
-                                href="/operator/cargroup">Add Car Group </a></li>
+                                href="./operator/cargroup">Add Car Group </a></li>
 
                         <li class="list-group-item"><span class="glyphicon glyphicon-pencil text-success"></span><a
-                                href="/operator/groups">Modify Car group details </a></li>
+                                href="./operator/groups">Modify Car group details </a></li>
 
                         <li class="list-group-item"><span class="glyphicon glyphicon-plus text-danger"></span><a
-                                href="/operator/addcar">Add Car </a></li>
+                                href="./operator/addcar">Add Car </a></li>
 
                         <li class="list-group-item"><span class="glyphicon glyphicon-pencil text-success"></span><a
-                                href="/operator/cars">Modify Car details </a></li>
+                                href="./operator/cars">Modify Car details </a></li>
 
                     </ul>
                 </li>
@@ -76,9 +76,9 @@
                 <li class="list-group-item"><span class="glyphicon glyphicon-road text-info"></span>Drivers
                     <ul class="list-group">
                         <li class="list-group-item"><span class="glyphicon glyphicon-plus-sign text-primary"></span><a
-                                href="/operator/adddriver">Add Chauffeur </a></li>
+                                href="./operator/adddriver">Add Chauffeur </a></li>
                         <li class="list-group-item"><span class="glyphicon glyphicon-pencil text-success"></span><a
-                                href="/operator/editdriver">Modify Chauffeur details </a></li>
+                                href="./operator/editdriver">Modify Chauffeur details </a></li>
                     </ul>
                 </li>
 
@@ -97,9 +97,9 @@
         <div class="panel-collapse ">
             <ul class="list-group">
                 <li class="list-group-item"><span class="glyphicon glyphicon-tag text-info"></span><a
-                        href="/operator/GenerateInvoice?all">Generate new Invoice</a></li>
+                        href="./operator/GenerateInvoice?all">Generate new Invoice</a></li>
                 <li class="list-group-item"><span class="glyphicon glyphicon-tag text-info"></span><a
-                        href="/operator/invoice?all">All Invoices</a></li>
+                        href="./operator/invoice?all">All Invoices</a></li>
                 <li class="list-group-item"><span class="glyphicon glyphicon-tag text-info"></span><a href="#">Print
                         Invoice</a></li>
             </ul>

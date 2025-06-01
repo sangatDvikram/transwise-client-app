@@ -1,9 +1,9 @@
 
     <!-- Bootstrap core CSS -->
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/css/docs.min.css" rel="stylesheet">
-    <link href="/assets/css/offcanvas.css" rel="stylesheet">
-    <link href="/assets/css/datepicker.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/docs.min.css" rel="stylesheet">
+    <link href="./assets/css/offcanvas.css" rel="stylesheet">
+    <link href="./assets/css/datepicker.css" rel="stylesheet">
 <style type="text/css">
   
 

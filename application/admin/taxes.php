@@ -13,7 +13,7 @@ if (!Login::is_admin())
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="./favicon.ico">
 
     <title> Manage Taxes - Operator panel</title>
 
@@ -77,7 +77,7 @@ if (!Login::is_admin())
       You Really want to delete tax <b><?php echo "$data[name]";?></b> ? <br> <p class='text-danger'> Note: You cannot retrive any tax information once it is deleted.</p>
       <form  class="form-inline" role="form" action='/admin/taxes?all ' method='post' id="<?php echo "$data[tax_id]";?>">
       <input type="hidden" name='tax_id' <?php echo "value=$data[tax_id]";?>>
-      <button type='submit' class='btn btn-danger yes'  name="delete" id="<?php echo "$data[tax_id]";?>">Yes</button> <a class="btn btn-default" href="/admin/taxes?all" role="button" ><span class="glyphicon glyphicon-remove"></span> No</a></form></div>
+      <button type='submit' class='btn btn-danger yes'  name="delete" id="<?php echo "$data[tax_id]";?>">Yes</button> <a class="btn btn-default" href="./admin/taxes?all" role="button" ><span class="glyphicon glyphicon-remove"></span> No</a></form></div>
       <?php } ?>
            
           </div>
@@ -125,7 +125,7 @@ if (!Login::is_admin())
     
             <?php } ?>
  <?php if(isset($_request['all'])){ ?>
-  <a type="button" class="btn btn-success btn-lg" href="/admin/addtaxes">
+  <a type="button" class="btn btn-success btn-lg" href="./admin/addtaxes">
   <span class="glyphicon glyphicon-plus"></span> Add New Tax
 </a>
             <div class="table-responsive">
@@ -175,9 +175,9 @@ $i=1;
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/assets/js/jquery.js"></script>
-    <script src="/assets//js/bootstrap.min.js"></script>
-    <script src="//tinymce.cachefly.net/4.0/tinymce.min.js"></script>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets//js/bootstrap.min.js"></script>
+    <script src=".//tinymce.cachefly.net/4.0/tinymce.min.js"></script>
     <script>
           tinymce.init({
               selector: "textarea",

@@ -14,7 +14,7 @@ $groups=new Operator;
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="./favicon.ico">
 
     <title> Modify Driver Details - Operator panel</title>
 
@@ -72,14 +72,14 @@ $groups=new Operator;
       You Realy want to delete driver <?php echo User::driverInfo($_request['delete'],'name');?> ? <br> <p class='text-danger'> Note: You cannot retrive any car information once it is deleted.</p>
       <form  class="form-inline" role="form" action='/operator/groups ' method='post' id="<?php echo "$data[id]";?>">
       <input type="hidden" name='id' <?php echo "value='".User::driverInfo($_request['delete'],'id')."'";?>>
-      <button type='submit' class='btn btn-danger yes'  name="delete" id="<?php echo "$data[id]";?>"> <span class="glyphicon glyphicon-ok"></span> Yes</button> <a class="btn btn-default" href="/operator/editdriver" role="button" ><span class="glyphicon glyphicon-remove"></span> No</a></form></div>
+      <button type='submit' class='btn btn-danger yes'  name="delete" id="<?php echo "$data[id]";?>"> <span class="glyphicon glyphicon-ok"></span> Yes</button> <a class="btn btn-default" href="./operator/editdriver" role="button" ><span class="glyphicon glyphicon-remove"></span> No</a></form></div>
       <?php } ?>
           
           </div>
           <?php
           if(isset($_request['id'])||isset($_request['info'])){?>
 <ul class="pager">
-  <li class="previous"><a href="/operator/editdriver">&larr; Back</a></li>
+  <li class="previous"><a href="./operator/editdriver">&larr; Back</a></li>
   
 </ul>
  <form class="form-horizontal" role="form" action="" method="post">
@@ -285,10 +285,10 @@ $groups=new Operator;
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/assets/js/jquery.js"></script>
-     <script src="/assets/js/bootstrap.min.js"></script>
-    <script src="/assets/js/docs.min.js"></script>
-    <script src="/assets/js/bootstrap-datepicker.js"></script>
+    <script src="./assets/js/jquery.js"></script>
+     <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/docs.min.js"></script>
+    <script src="./assets/js/bootstrap-datepicker.js"></script>
      <script type="text/javascript">
             // When the document is ready
             $(function () {

@@ -13,12 +13,12 @@ if (!Login::is_admin())
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="./favicon.ico">
 
     <title>Admin panel</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
 <style type="text/css">
   body
   {
@@ -119,8 +119,8 @@ if (!Login::is_admin())
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/assets/js/jquery.js"></script>
-    <script src="/assets//js/bootstrap.min.js"></script>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets//js/bootstrap.min.js"></script>
     
   </body>
 </html>

@@ -35,7 +35,7 @@
         </tbody>
     </table>
     <a type="button" class="btn btn-success btn-lg"
-       href="/admin/newCompany?new"> <span
+       href="./admin/newCompany?new"> <span
             class="glyphicon glyphicon-plus"></span> Add New Company
     </a>
 </div>

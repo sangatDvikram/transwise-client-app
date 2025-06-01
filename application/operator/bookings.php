@@ -15,7 +15,7 @@ $groups=new Cars;
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="./favicon.ico">
 
     <title> All Bookings - Operator panel</title>
 
@@ -153,9 +153,9 @@ $groups=new Cars;
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/assets/js/jquery.js"></script>
-    <script src="/assets//js/bootstrap.min.js"></script>
-    <script src="//tinymce.cachefly.net/4.0/tinymce.min.js"></script>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets//js/bootstrap.min.js"></script>
+    <script src=".//tinymce.cachefly.net/4.0/tinymce.min.js"></script>
     <script>
           tinymce.init({
               selector: "textarea",

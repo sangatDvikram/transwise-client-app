@@ -19,7 +19,7 @@ class myDB {
     {
         try
         {
-            $this->_pdo = new PDO('mysql:host=SD;dbname=transwise', 'vrittDbAdmin', 'b@nd3Is@Awsm');
+            $this->_pdo = new PDO('mysql:host=localhost;dbname=transwise');
         } catch (PODException $e)
         {
             die($e->getMessage(0));

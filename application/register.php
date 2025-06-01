@@ -13,14 +13,14 @@ if (Login::is_logged_in())
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="./favicon.ico">
 
     <title>Register With Us</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/css/docs.min.css" rel="stylesheet">
-    <link href="/assets/css/register.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/docs.min.css" rel="stylesheet">
+    <link href="./assets/css/register.css" rel="stylesheet">
 
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
@@ -120,8 +120,8 @@ if (Login::is_logged_in())
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/assets/js/jquery.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
     <script type="text/javascript">
             // When the document is ready
             $(function () {

@@ -13,7 +13,7 @@ $start = $time;
  * Some Project related Variables.
  *---------------------------------------------------------------
  */
-$linklocation=($_SERVER['SERVER_PORT']==8888)?'/gaurav':'';
+$linklocation=($_SERVER['SERVER_PORT']==8888)?'/gaurav':'/transwise-client-app';
 
 define('PROJECT', 'Transwise');
 define('CSS','

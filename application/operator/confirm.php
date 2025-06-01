@@ -15,7 +15,7 @@ $booking = new Bookings;
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="./favicon.ico">
 
     <title>Bookings details - Operator panel</title>
 
@@ -674,8 +674,8 @@ $booking = new Bookings;
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="/assets/js/jquery.js"></script>
-<script src="/assets//js/bootstrap.min.js"></script>
+<script src="./assets/js/jquery.js"></script>
+<script src="./assets//js/bootstrap.min.js"></script>
 
 <script type="text/javascript">
 
@@ -693,8 +693,8 @@ $booking = new Bookings;
     }
 
 </script>
-<script src="/assets/js/docs.min.js"></script>
-<script src="/assets/js/bootstrap-datepicker.js"></script>
+<script src="./assets/js/docs.min.js"></script>
+<script src="./assets/js/bootstrap-datepicker.js"></script>
 <script type="text/javascript">
 // When the document is ready
 

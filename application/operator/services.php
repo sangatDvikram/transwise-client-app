@@ -15,7 +15,7 @@ $Operator=new Operator;
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="./favicon.ico">
 
     <title> Manage Services - Operator panel</title>
 
@@ -78,7 +78,7 @@ $Operator=new Operator;
       You Realy want to delete package <b><?php echo "$data[name]";?></b> ? <br> <p class='text-danger'> Note: You cannot retrive any package information once it is deleted.</p>
       <form  class="form-inline" role="form" action='/operator/services?all ' method='post' id="<?php echo "$data[package_id]";?>">
       <input type="hidden" name='package_id' <?php echo "value=$data[package_id]";?>>
-      <button type='submit' class='btn btn-danger yes'  name="delete" id="<?php echo "$data[package_id]";?>">Yes</button> <a class="btn btn-default" href="/operator/groups" role="button" ><span class="glyphicon glyphicon-remove"></span> No</a></form></div>
+      <button type='submit' class='btn btn-danger yes'  name="delete" id="<?php echo "$data[package_id]";?>">Yes</button> <a class="btn btn-default" href="./operator/groups" role="button" ><span class="glyphicon glyphicon-remove"></span> No</a></form></div>
       <?php } ?>
           
           </div>
@@ -155,7 +155,7 @@ $i=1;
      ?>
    </tbody>
   </table>
-  <a type="button" class="btn btn-success btn-lg" href="/operator/services?add">
+  <a type="button" class="btn btn-success btn-lg" href="./operator/services?add">
   <span class="glyphicon glyphicon-plus"></span> Add New Service
 </a>
 </div>
@@ -178,9 +178,9 @@ $i=1;
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/assets/js/jquery.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
-    <script src="//tinymce.cachefly.net/4.0/tinymce.min.js"></script>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src=".//tinymce.cachefly.net/4.0/tinymce.min.js"></script>
     <script>
           tinymce.init({
               selector: "textarea",
