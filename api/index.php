@@ -29,7 +29,7 @@ define('CSS','
       <link href="'.$linklocation.'/assets/css/bootplus-responsive.css" rel="stylesheet">
 
       <link href="'.$linklocation.'/assets/css/docs.css" rel="stylesheet">
-      <link href="'.$linklocation.'/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+      <link href="'.$linklocation.'/assets/js/google-code-prettify/prettify_css.css" rel="stylesheet">
        <link rel="shortcut icon" href="'.$linklocation.'/favicon.ico">
        
 ');
