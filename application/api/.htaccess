@@ -1,4 +1,0 @@
-Options -Indexes
-
-ErrorDocument 404 /404.shtml
-ErrorDocument 403 /404.shtml
